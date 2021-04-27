@@ -111,6 +111,8 @@ class LinkedList:
         n = self.head
         for i in range(index):
             n = n.next
+
+        
         
 
     def find(self, value):
